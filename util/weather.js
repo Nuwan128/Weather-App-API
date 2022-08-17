@@ -4,7 +4,7 @@ const getWeather = (lat,lon) => {
 
     return new Promise((resolve,reject) => {
         
-        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=e3ac7d987600d394da0f93cd0f0deaa1`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=API ID`;
         
         axios.get(url)
             .then((response) => {
