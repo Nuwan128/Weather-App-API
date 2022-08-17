@@ -4,7 +4,7 @@ const getGeo = (location) => {
 
     return new Promise((resolve,reject) => {
 
-        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=e3ac7d987600d394da0f93cd0f0deaa1`;
+        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=API ID`;
     
         axios.get(url)
             .then((response) => {
